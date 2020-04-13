@@ -50,17 +50,24 @@ inquirer
       name: 'Usage',
       message: 'Please add usage content'
     },
-    {
-      type: 'input',
-      name: 'Credits',
-      message: 'Please add credits content'
-    },
+    
     {
       type: 'list',
       message: 'What license would you like to use?',
-      name: 'license',
+      name: 'thelicense',
       choices: ['Licensed under the [MIT](LICENSE.txt) license', 'License prefered by the Community', 'Licensed under GNU GPLv3']
-    }
+    },
+    {
+      type: 'input',
+      name: 'Contributing',
+      message: 'Please add any content regarding contribution'
+    },
+    {
+      type: 'input',
+      name: 'Tests',
+      message: 'Please add any content regarding tests'
+    },
+    
     
     
   ])
@@ -76,7 +83,7 @@ inquirer
 
         axios.get("https://api.github.com/users/" + data.userName)
         .then(function (response){
-          console.log(response.data.email)
+          console.log(response.data)
            avatar = response.data.avatar_url
            email = response.data.email
         
@@ -93,7 +100,7 @@ inquirer
 
    
 
-    fs.appendFile('log.md', "# " + data.title + '\n' + '\n' +  data.description + '\n' + '\n' + '* [installation](#installation)' + '\n' + '* [usage](#usage)' + '\n' + '* [credits](#credits)' + '\n' + '* [license](#license)' +'\n'+ data.license + '\n' + '\n' + "# Installation"  + '\n' + data.Installation + '\n' +'\n' + "# Usage" + '\n' + data.Usage + '\n' + '\n' + "# License" + '\n' + data.license + '\n' + `[!image](${avatar})` + '\n' + email, function (err) {
+    fs.appendFile('log.md', "# " + data.title + '\n' + '\n' +  data.description + '\n' + '\n' + '* [installation](#installation)' + '\n' + '* [usage](#usage)' + '\n' + '* [license](#license)'+ '\n' + '* [contributing](#contributing)' + '\n' +  '* [tests](#tests)' + '\n' + "# Installation"  + '\n' + data.Installation + '\n' +'\n' + "# Usage" + '\n' + data.Usage + '\n' + '\n' + "# License" + '\n' + data.thelicense + '\n '+ '\n' + "# Contributing" + '\n' + data.Contributing + '\n' + '\n' + "# tests" + '\n' + data.Tests + '\n' + '\n' + `![image](${avatar})`+ '\n' + '\n' + email, function (err) {
       if (err) {
         console.log(err)
       } else {

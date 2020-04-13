@@ -1,9 +1,10 @@
 {
 	"userName": "jonbrenan",
-	"title": "s",
-	"description": "s",
-	"Installation": "s",
-	"Usage": "s",
-	"Credits": "s",
-	"license": "Licensed under the [MIT](LICENSE.txt) license"
+	"title": "README generator",
+	"description": "its a readme generator you dip",
+	"Installation": "just put cd in the drive, yo",
+	"Usage": "no one uses this",
+	"thelicense": "Licensed under the [MIT](LICENSE.txt) license",
+	"Contributing": "no one helped me ):",
+	"Tests": "no tests"
 }
