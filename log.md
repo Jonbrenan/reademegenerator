@@ -1,4 +1,8 @@
-# Bald Dudes Big Break
-Its about a bald guy
+# Jons Project
+Its really cool
 
 
+* Installation 
+* Credits
+* License
+* Usage 

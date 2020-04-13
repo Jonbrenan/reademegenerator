@@ -65,5 +65,33 @@ inquirer
         console.log('Commit logged!')
       }
     })
+    fs.appendFile('log.md', "* Installation " + '\n', function (err) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('Commit logged!')
+      }
+    })
+    fs.appendFile('log.md', "* Usage " + '\n', function (err) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('Commit logged!')
+      }
+    })
+    fs.appendFile('log.md', "* Credits" + '\n', function (err) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('Commit logged!')
+      }
+    })
+    fs.appendFile('log.md', "* License" + '\n', function (err) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('Commit logged!')
+      }
+    })
     
   })
