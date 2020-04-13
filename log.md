@@ -1,6 +1,6 @@
-# Proj name
+# jons proj
 
-this is the descr
+this is the desc mayne
 
 * [installation](#installation)
 * [usage](#usage)
@@ -8,20 +8,21 @@ this is the descr
 * [contributing](#contributing)
 * [tests](#tests)
 # Installation
-insert cd
+cd drive mayne
 
 # Usage
-I used this
+bill is gonna use this later
 
 # License
 Licensed under the [MIT](LICENSE.txt) license
  
 # Contributing
-I made it all!
+no one helpedme
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 # tests
-no tests
+test
 
 ![image](https://avatars0.githubusercontent.com/u/57410689?v=4)
 
-null[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+null

@@ -1,10 +1,10 @@
 {
 	"userName": "jonbrenan",
-	"title": "Proj name",
-	"description": "this is the descr",
-	"Installation": "insert cd",
-	"Usage": "I used this",
+	"title": "jons proj",
+	"description": "this is the desc mayne",
+	"Installation": "cd drive mayne",
+	"Usage": "bill is gonna use this later",
 	"thelicense": "Licensed under the [MIT](LICENSE.txt) license",
-	"Contributing": "I made it all!",
-	"Tests": "no tests"
+	"Contributing": "no one helpedme",
+	"Tests": "test"
 }
