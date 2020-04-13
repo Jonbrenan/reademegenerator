@@ -1,5 +1,6 @@
 {
 	"name": "Jon",
-	"title": "Jons Project",
-	"description": "Its really cool"
+	"title": "Title",
+	"description": "Description",
+	"Installation": "Install"
 }
