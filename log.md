@@ -1,12 +1,15 @@
 # README Generator
 
+# Description
 The README generator functions as the name implies; it generates a README for the user in a quick and efficient manner so that the user can focus more time on their code project instead of generating a README. The README generator is accessed through the VS Code terminal. 
 
+* [description](#description)
 * [installation](#installation)
 * [usage](#usage)
 * [license](#license)
 * [contributing](#contributing)
 * [tests](#tests)
+* [questions](#questions)
 
 # Installation
 To install the application, access the Github repository: https://github.com/Jonbrenan/reademegenerator then simply click the “clone or download” button and either save the document as a zip file or clone the repository to your computer using gitbash. 
@@ -24,8 +27,9 @@ To see how one can contribute to the application, simply click the “Contributo
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 # Tests
-No tests
+no tests
 
+# Questions
 ![image](https://avatars0.githubusercontent.com/u/57410689?v=4)
 
 null
