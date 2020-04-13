@@ -1,6 +1,6 @@
-# README generator
+# Proj name
 
-its a readme generator you dip
+this is the descr
 
 * [installation](#installation)
 * [usage](#usage)
@@ -8,20 +8,20 @@ its a readme generator you dip
 * [contributing](#contributing)
 * [tests](#tests)
 # Installation
-just put cd in the drive, yo
+insert cd
 
 # Usage
-no one uses this
+I used this
 
 # License
 Licensed under the [MIT](LICENSE.txt) license
  
 # Contributing
-no one helped me ):
+I made it all!
 
 # tests
 no tests
 
 ![image](https://avatars0.githubusercontent.com/u/57410689?v=4)
 
-null
+null[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
