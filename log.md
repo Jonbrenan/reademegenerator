@@ -1,4 +1,4 @@
-# README Generator
+# ReadMeGenerator
 
 # Description
 The README generator functions as the name implies; it generates a README for the user in a quick and efficient manner so that the user can focus more time on their code project instead of generating a README. The README generator is accessed through the VS Code terminal. 
@@ -27,7 +27,7 @@ To see how one can contribute to the application, simply click the “Contributo
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 # Tests
-no tests
+No tests
 
 # Questions
 ![image](https://avatars0.githubusercontent.com/u/57410689?v=4)
